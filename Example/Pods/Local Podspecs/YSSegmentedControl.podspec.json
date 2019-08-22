@@ -1,0 +1,22 @@
+{
+  "name": "YSSegmentedControl",
+  "version": "0.1.0",
+  "summary": "A short description of YSSegmentedControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nguyen D/YSSegmentedControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nguyen D": "nguyen.doan@lbhpartners.com"
+  },
+  "source": {
+    "git": "https://github.com/Nguyen D/YSSegmentedControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YSSegmentedControl/Classes/**/*"
+}

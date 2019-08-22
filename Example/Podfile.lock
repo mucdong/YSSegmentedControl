@@ -1,0 +1,16 @@
+PODS:
+  - YSSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - YSSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  YSSegmentedControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YSSegmentedControl: c467b4abdfd118c69c0a08ef4d91faa0357fd770
+
+PODFILE CHECKSUM: 81a2491a8e3f9003f26df66909c5b437d122f829
+
+COCOAPODS: 1.6.1

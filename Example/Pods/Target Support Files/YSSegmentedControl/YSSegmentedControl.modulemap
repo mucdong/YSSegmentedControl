@@ -1,0 +1,6 @@
+framework module YSSegmentedControl {
+  umbrella header "YSSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0234E3230E596D000120D1 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 0B0234E0230E596D000120D1 /* .gitkeep */; };
+		0B0234E4230E596D000120D1 /* YTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0234E2230E596D000120D1 /* YTSegmentedControl.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		320DE11637A81301E43E1A89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B0234E0230E596D000120D1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		0B0234E1230E596D000120D1 /* YTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSegmentedControl.h; sourceTree = "<group>"; };
+		0B0234E2230E596D000120D1 /* YTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSegmentedControl.m; sourceTree = "<group>"; };
+		320DE11637A81301E43E1A89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -26,9 +31,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		735D362901AAB52FBC986AA0 /* YSSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YSSegmentedControl.podspec; path = ../YSSegmentedControl.podspec; sourceTree = "<group>"; };
+		735D362901AAB52FBC986AA0 /* YSSegmentedControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YSSegmentedControl.podspec; path = ../YSSegmentedControl.podspec; sourceTree = "<group>"; };
 		B8014D053363C50E53B60229 /* Pods-YSSegmentedControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSSegmentedControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YSSegmentedControl_Tests/Pods-YSSegmentedControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BA5DB2F3BBDB6EBCB32A8CD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA5DB2F3BBDB6EBCB32A8CD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F577C1DD92F60A103E977605 /* Pods-YSSegmentedControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSSegmentedControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-YSSegmentedControl_Tests/Pods-YSSegmentedControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8FBE1450F5B7CC4947B3027 /* Pods_YSSegmentedControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSSegmentedControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,9 +53,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B0234DF230E596D000120D1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B0234E0230E596D000120D1 /* .gitkeep */,
+				0B0234E1230E596D000120D1 /* YTSegmentedControl.h */,
+				0B0234E2230E596D000120D1 /* YTSegmentedControl.m */,
+			);
+			name = Classes;
+			path = ../YSSegmentedControl/Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				0B0234DF230E596D000120D1 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -114,7 +131,6 @@
 				B8014D053363C50E53B60229 /* Pods-YSSegmentedControl_Tests.debug.xcconfig */,
 				F577C1DD92F60A103E977605 /* Pods-YSSegmentedControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +176,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -179,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				0B0234E3230E596D000120D1 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				0B0234E4230E596D000120D1 /* YTSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
