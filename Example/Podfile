@@ -1,0 +1,6 @@
+use_frameworks!
+target 'YSSegmentedControl_Tests' do
+  pod 'YSSegmentedControl', :path => '../'
+  
+  
+end
